@@ -1,4 +1,7 @@
 # qwerty
+<img width="367" height="394" alt="image" src="https://github.com/user-attachments/assets/fd0c8894-a1e6-4221-bc1f-2405813b5f37" />
+
+
 QR code generator.
 
 Example usage:
@@ -15,6 +18,9 @@ corLvl = "L"
 
 g = gen.gen(target, version, corLvl)
 g.output(inverse = False) # inverts colors of qr code. use False if terminal has a dark background, True if not
+
+g.pad(1) # adds padding around the generated code
+g.output(padded=True)
 
 
 
