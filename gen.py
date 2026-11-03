@@ -319,9 +319,9 @@ class Grid:
 				# print("x",x)
 				# self.output()
 
-	def output(self, padded = False):
-		T = "██"
-		F = "  "
+	def output(self, padded = False, inverse = False):
+		T = "██" if not inverse else "  "
+		F = "  " if not inverse else "██"
 		empty = ".."
 		if padded:
 			for row in self.padded:
