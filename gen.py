@@ -671,7 +671,7 @@ def gen(text, version = 1, correction = "Q"):
 	# g.output()
 	# input()
 	g.fillData("".join(finalBytes), version)
-	g.output()
+	# g.output()
 
 	g.applyMask(1)
 	# print(finalBits)

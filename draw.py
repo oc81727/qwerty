@@ -3,13 +3,15 @@ import pygame
 
 # pygame.init()
 
-target = "3<           "
+target = "www.ab.com"
 version = 1
 corLvl = "Q"
 gridSize = ((version-1)*4)+21
 
 g = gen.gen(target, version, corLvl)
-# g.output()
+# input()
+g.output()
+input()
 # print(gen.decode("10111101111111111111"))
 # input()"00000000000"+"00000000000"+"0"*12+"0"*12
 # target = "00000000000"+"00000000000"+"0"*12+"0"*12
@@ -42,6 +44,7 @@ testGrid.addPatterns(version)
 testGrid.fillData("0"*totalSize,version)
 testGrid.applyMask(1)
 testGrid.output()
+
 # input()
 for i in range((totalSize) // 8):
 	toTest = "0"*8*i + "1"*8 + "0"*(totalSize - 8*(i+1))
