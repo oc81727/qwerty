@@ -19,7 +19,7 @@ g = gen.gen(target, version, corLvl)
 g.output(inverse = False) # inverts colors of qr code. use False if terminal has a dark background, True if not
 
 g.pad(1) # adds padding around the generated code
-g.output(padded=True)
+g.output(padded = True)
 
 
 
