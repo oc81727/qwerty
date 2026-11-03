@@ -1,5 +1,4 @@
 # qwerty
-<img width="367" height="394" alt="image" src="https://github.com/user-attachments/assets/fd0c8894-a1e6-4221-bc1f-2405813b5f37" />
 
 
 QR code generator.
@@ -25,3 +24,5 @@ g.output(padded=True)
 
 
 ```
+
+<img width="367" height="394" alt="image" src="https://github.com/user-attachments/assets/fd0c8894-a1e6-4221-bc1f-2405813b5f37" />
