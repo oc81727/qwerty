@@ -1,0 +1,2 @@
+# qwerty
+QR code generator.
